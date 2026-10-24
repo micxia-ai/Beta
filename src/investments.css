@@ -1,0 +1,324 @@
+.investment-terms-fields {
+  border-top: 1px solid #e7ecdc;
+  margin-top: 7px;
+  padding-top: 20px;
+}
+.investment-terms-fields .form-section-heading {
+  margin: 0 0 15px;
+  font-size: 9px;
+}
+.investment-terms-fields .form-grid {
+  margin-bottom: 0;
+}
+.return-options {
+  display: flex;
+  gap: 11px;
+  margin-bottom: 25px;
+}
+.return-options > button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex: 1;
+  border: 1px solid #dfe6d3;
+  border-radius: 6px;
+  background: #fff;
+  padding: 13px;
+  text-align: left;
+  color: #91a179;
+  min-width: 0;
+}
+.return-options > button.chosen {
+  background: #f1f5e8;
+  border-color: #a1b782;
+  color: #6c8950;
+}
+.return-options strong {
+  display: block;
+  font-size: 11px;
+  font-weight: 550;
+}
+.return-options small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.6;
+  margin-top: 4px;
+  color: #9aab87;
+}
+.renewal-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 13px;
+  background: #f5f7ef;
+  border: 1px solid #e2e9d5;
+  border-radius: 6px;
+  margin: 0 0 22px;
+  cursor: pointer;
+}
+.renewal-toggle input {
+  margin: 2px 0 0;
+  accent-color: #819b60;
+}
+.renewal-toggle > svg {
+  color: #8ea477;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.renewal-toggle strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 550;
+  color: #7e9665;
+}
+.renewal-toggle small {
+  display: block;
+  font-size: 9px;
+  color: #a0af8b;
+  line-height: 1.7;
+  margin-top: 5px;
+}
+.terms-note {
+  font-size: 9px;
+  color: #98a987;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.currency-select {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: #8c9a79;
+}
+.currency-select select {
+  border: 1px solid #dfe6d3;
+  border-radius: 5px;
+  background: #fff;
+  color: #7c8e63;
+  font-size: 11px;
+  padding: 6px 8px;
+}
+.return-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 17px 21px;
+  margin-bottom: 21px;
+  background: #eff3e7;
+  border: 1px solid #e0e8d0;
+  border-radius: 7px;
+}
+.return-strip > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.return-strip span {
+  font-size: 10px;
+  color: #8c9f73;
+}
+.return-strip strong {
+  font-size: 19px;
+  color: #6f8b50;
+  font-family: Manrope, sans-serif;
+  letter-spacing: -0.5px;
+}
+.status.matured {
+  color: #b28b61;
+}
+.monthly-distributions {
+  margin: 24px -27px 0;
+  border-top: 1px solid #e5ebd8;
+}
+.monthly-distributions .panel-heading {
+  padding: 20px 27px 16px;
+}
+.monthly-distributions h3 {
+  font-size: 12px;
+  color: #7a9163;
+}
+.monthly-distributions p {
+  font-size: 9px;
+  color: #9eaf8a;
+  margin-top: 7px;
+  line-height: 1.7;
+}
+.monthly-distributions td {
+  font-size: 10px;
+}
+.commission-breakdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+.commission-breakdown > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 9px;
+  color: #96a780;
+}
+.commission-breakdown strong {
+  color: #718e53;
+  font-size: 12px;
+}
+.renewal-events {
+  margin-top: 15px;
+  border-top: 1px solid #dde5ce;
+  padding-top: 12px;
+}
+.renewal-events > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 10px;
+  color: #879d6d;
+  line-height: 1.8;
+}
+.investment-detail-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.investment-detail-summary > div {
+  border: 1px solid #e6ebdc;
+  border-radius: 6px;
+  background: #f6f8f0;
+  padding: 12px;
+}
+.investment-detail-summary span {
+  display: block;
+  font-size: 8px;
+  color: #9bad87;
+  line-height: 1.6;
+}
+.investment-detail-summary strong {
+  display: block;
+  font-family: Manrope, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #729252;
+  margin-top: 7px;
+  overflow-wrap: anywhere;
+}
+.investment-detail-summary small {
+  display: block;
+  font-size: 8px;
+  line-height: 1.6;
+  color: #a5b393;
+  margin-top: 5px;
+}
+.readonly-balance {
+  padding: 13px;
+  background: #f4f7eb;
+  border: 1px solid #e2e9d5;
+  border-radius: 6px;
+  font-size: 10px;
+  color: #91a67b;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.readonly-balance strong {
+  font-size: 13px;
+  color: #6e8b52;
+}
+.empty-currency-note {
+  font-size: 10px;
+  color: #94a381;
+}
+.scenario-schedule th,
+.scenario-schedule td {
+  white-space: nowrap;
+}
+.calculator-results {
+  position: sticky;
+  top: 20px;
+}
+@media (max-width: 1000px) {
+  .calculator-results {
+    position: static;
+  }
+}
+@media (max-width: 600px) {
+  .return-options {
+    gap: 8px;
+  }
+  .return-options > button {
+    padding: 11px 8px;
+    gap: 7px;
+  }
+  .return-options strong {
+    font-size: 9px;
+  }
+  .return-options small {
+    font-size: 7px;
+  }
+  .return-options svg {
+    width: 15px;
+  }
+  .renewal-toggle strong {
+    font-size: 9px;
+  }
+  .renewal-toggle small,
+  .terms-note {
+    font-size: 8px;
+  }
+  .currency-select {
+    font-size: 9px;
+    gap: 4px;
+  }
+  .currency-select > span {
+    display: none;
+  }
+  .currency-select select {
+    font-size: 10px;
+    padding: 6px;
+  }
+  .return-strip {
+    gap: 10px;
+    padding: 14px;
+  }
+  .return-strip span {
+    font-size: 8px;
+  }
+  .return-strip strong {
+    font-size: 16px;
+  }
+  .investment-detail-summary {
+    gap: 7px;
+  }
+  .investment-detail-summary > div {
+    padding: 9px;
+  }
+  .investment-detail-summary strong {
+    font-size: 13px;
+  }
+  .investment-detail-summary span,
+  .investment-detail-summary small {
+    font-size: 7px;
+  }
+  .monthly-distributions {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .monthly-distributions .panel-heading {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .monthly-distributions h3 {
+    font-size: 11px;
+  }
+  .monthly-distributions td {
+    font-size: 9px;
+  }
+  .commission-breakdown {
+    gap: 9px;
+  }
+  .renewal-events > div {
+    font-size: 9px;
+  }
+}
