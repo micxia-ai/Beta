@@ -1,0 +1,22 @@
+# Free testing service. Its sample database is ephemeral and may reset on redeploy.
+# For real records, use a paid service with a persistent disk and authentication.
+services:
+  - type: web
+    name: trailbook-testing
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev --cache /tmp/trailbook-npm && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: "off"
+    envVars:
+      - key: NODE_VERSION
+        value: 24.19.0
+      - key: NODE_ENV
+        value: production
+      - key: SEED_DEMO
+        value: "true"
+      - key: PUBLIC_DEMO
+        value: "true"
+      - key: DATABASE_PATH
+        value: /tmp/trailbook/trailbook.sqlite
